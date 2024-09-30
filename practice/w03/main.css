@@ -1,0 +1,20 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.center {
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.pinkbg {
+    background-color: hotpink;
+}
+
+#myName {
+    color: rgb(120, 233, 143);
+    background-color: rgb(2, 92, 218);
+    padding: 10px;
+}
