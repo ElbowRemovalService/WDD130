@@ -1,2 +1,2 @@
 # WDD130 Pages. 
-There's really no reason to be here if you aren't Quinn Briggs. 
+Note for grading: if the link isn't working, try the link "wdd130/assignments" instead of "wdd130/wdd130."
