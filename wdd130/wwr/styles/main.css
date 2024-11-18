@@ -5,12 +5,25 @@ Need bgcolor for:
 footer
 */
 
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+  font-family: GodofWar;
+  src: url(../fonts/godofwar.ttf);
+}
+@font-face {
+  font-family: Angelwish;
+  src: url(../fonts/angelwish.ttf);
+}
+
 body {
   background-color: #030015;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #090142d1;
+  font-size: 1.1em;
 }
 
 div {
@@ -107,6 +120,15 @@ footer p a:hover {
 
 h4 {
   color: #e9eaff;
+}
+
+h2 {
+  margin: 0;
+}
+
+h1, h4 {
+  font-family: 'AngelWish', serif;
+  font-size: 2em;
 }
 
 .icon, .logo {
