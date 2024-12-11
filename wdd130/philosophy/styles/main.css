@@ -31,6 +31,7 @@
   main {
     max-width: 70%;
     margin: auto; 
+    text-align: center;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -57,8 +58,19 @@
   p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
-    padding: 1em;
+    padding: 0.6em;
     font-size: 1.2em;
+  }
+
+  .topsection {
+    background-color: var(--nav-background-color);
+    margin: 0 none;
+    padding: none;
+    min-width: 100%;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
   }
 
   nav a {
@@ -76,20 +88,96 @@
     text-decoration: underline;
   }
 
+  a {
+    text-align: center; 
+    color: var(--nav-link-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+  }
+
   .space {
     padding: 10px;
   }
 
-  .chonker {
+  .chonker, .minichonker {
     min-height: 500px;
     border: 1px solid var(--accent1-color);
     padding: 5px;
+    max-width: 85%;
+    margin: auto;
   }
 
   .minichonker {
-    min-height: 250px;
+    min-height: 200px;
+  }
+
+  .middletext {
+    text-align: center;
+    align-content: center;
+  }
+
+  .thinchonker {
+    min-height: 200px;
     border: 1px solid var(--accent1-color);
     padding: 5px;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .sides {
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftside {
+    position: absolute;
+    left: 15px;
+    min-width: 18%;
+    min-height: 80%;
+    max-width: 18%;
+    align-items: middle;
+  }
+
+  .rightside {
+    position: absolute;
+    right: 15px;
+    min-width: 18%;
+    min-height: 80%;
+    max-width: 18%;
+    align-items: middle;
+  }
+
+  .imgchonker {
+    border: 1px solid var(--accent1-color);
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    color: var(--paragraph-color-on-white);
+    font-family: var(--paragraph-font);
+    font-size: 1.1em;
+  }
+
+  .imgbumper {
+    min-height: 250px;
+    min-width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .imgbumper0 {
+    min-height: 175px;
+    min-width: 80%;
+    margin-bottom: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   ul {
@@ -103,4 +191,5 @@
   li {
     text-align: center; 
     padding: 5px;
+    list-style-position: inside;
   }
