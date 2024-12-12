@@ -21,6 +21,7 @@
     --nav-background-color: #3C096C;
     --nav-hover-link-color: #E0AAFF;
     --nav-hover-background-color: #5A189A;
+    --footer-background-color: #31055a;
   }
 
   body {
@@ -32,6 +33,7 @@
     max-width: 70%;
     margin: auto; 
     text-align: center;
+    padding-bottom: 8px;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -49,6 +51,7 @@
 
   h3 { /* default is 1.2em */
     font-size: 1.4em;
+    margin-top: -25px;
   }
 
   h4 {
@@ -71,6 +74,19 @@
     right: 0px;
     left: 0px;
     top: 0px;
+  }
+
+  footer {
+    min-height: 30px;
+    border: 1px solid var(--accent1-color);
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    background-color: var(--footer-background-color);
+    font-size: 1em;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: static;
   }
 
   nav a {
